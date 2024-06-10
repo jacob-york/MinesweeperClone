@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="ok_btn_text">OK</string>
+    <string name="cancel_btn_text">Cancel</string>
+    <string name="high_score_title">High Scores</string>
+    <string name="rank_field_label">Rank</string>
+    <string name="name_field_label">Name</string>
+    <string name="score_field_label">Score</string>
+    <string name="field_field_label">Field</string>
+    <string name="mines_field_label">Mines</string>
+    <string name="time_field_label">Time</string>
+    <string name="clicks_field_label">Clicks</string>
+    <string name="sweep_date_field_label">Sweep Date</string>
+    <string name="delete_btn_text">Delete</string>
+    <string name="start_game_btn_text">Sweep!</string>
+
+</resources>

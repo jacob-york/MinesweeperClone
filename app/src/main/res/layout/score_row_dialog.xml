@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/rankNameScoreKeys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rankLabelSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.33"
+                android:background="@color/SD_header_color"
+                android:backgroundTintMode="add"
+                android:gravity="center"
+                android:text="@string/rank_field_label"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/nameLabelSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.33"
+                android:background="@color/SD_header_color"
+                android:gravity="center"
+                android:text="@string/name_field_label"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/scoreLabelSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.33"
+                android:background="@color/SD_header_color"
+                android:gravity="center"
+                android:text="@string/score_field_label"
+                android:textSize="@dimen/SD_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rankNameScoreVals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rankValSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/nameValSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/scoreValSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.33"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="@dimen/SD_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fieldsMinesKeys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fieldLabelSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight=".5"
+                android:background="@color/SD_header_color"
+                android:gravity="center"
+                android:text="@string/field_field_label"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/minesLabelSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight=".5"
+                android:background="@color/SD_header_color"
+                android:gravity="center"
+                android:text="@string/mines_field_label"
+                android:textSize="@dimen/SD_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fieldsMinesVals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fieldValSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/minesValSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="@dimen/SD_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/timeClicksKeys"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/timeLabelSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.5"
+                android:background="@color/SD_header_color"
+                android:gravity="center"
+                android:text="@string/time_field_label"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/clicksLabelSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.5"
+                android:background="@color/SD_header_color"
+                android:gravity="center"
+                android:text="@string/clicks_field_label"
+                android:textSize="@dimen/SD_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/timeClicksVals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/timeValSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/clicksValSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="@dimen/SD_text_size" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/sweepDateRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sweepDateLabelSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.5"
+                android:background="@color/SD_header_color"
+                android:gravity="center"
+                android:text="@string/sweep_date_field_label"
+                android:textSize="@dimen/SD_text_size" />
+
+            <TextView
+                android:id="@+id/sweepDateValSD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/SD_cell_margins"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="@dimen/SD_text_size" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/deleteBtnSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/delete_btn_text"
+        android:textSize="@dimen/SD_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <Button
+        android:id="@+id/okBtnSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/ok_btn_text"
+        android:textSize="@dimen/SD_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

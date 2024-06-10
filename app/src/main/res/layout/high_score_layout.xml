@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/okHighScoreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:text="@string/ok_btn_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:id="@+id/titleBarD"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/highScoresD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/rankHeaderD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:width="0dp"
+            android:gravity="center"
+            android:text="@string/rank_field_label"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/nameHeaderD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:width="0dp"
+            android:gravity="center"
+            android:text="@string/name_field_label"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/scoreHeaderD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:width="0dp"
+            android:gravity="center"
+            android:text="@string/score_field_label"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/highScoresD"
+        android:layout_width="286dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/okHighScoreBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763">
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
